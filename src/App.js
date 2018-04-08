@@ -7,17 +7,23 @@ import myData from './myData';
 class App extends Component {
     render() {
         let entries = [];
-        Object.entries(myData).map(([key, value]) => {
-            entries.push({name: key, count: value})
-        });
-        const data = entries;
+        // Object.entries(myData).map(([key, value]) => {
+        //     entries.push({name: key, count: value})
+        // });
+        const data = myData;
 
         const columns = [{
-            Header: 'Name',
-            accessor: 'name'
+            Header: 'Product Id',
+            accessor: 'productId'
         }, {
-            Header: 'Count',
-            accessor: 'count',
+            Header: 'Category Id',
+            accessor: 'categoryId',
+        }, {
+            Header: 'Product Name',
+            accessor: 'productName',
+        }, {
+            Header: 'Assortment Type',
+            accessor: 'assortmentType',
         }];
 
         return (
@@ -26,7 +32,7 @@ class App extends Component {
                 columns={columns}
                 showPaginationBottom={false}
                 filterable={true}
-    />);
+            />);
     }
 }
 

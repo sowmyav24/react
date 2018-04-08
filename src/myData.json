@@ -3,97 +3,113 @@
     "productId": "5565065",
     "categoryId": "82152",
     "productName": "SLUCIA",
-    "assortmentType": "IB"
+    "assortmentType": "IB",
+    "count": "16"
   },
   {
     "productId": "2144133",
     "categoryId": "82152",
     "productName": "MOZZARELLA SLUCIA",
-    "assortmentType": "IB"
+    "assortmentType": "IB",
+    "count": "16"
   },
   {
     "productId": "1079948",
     "categoryId": "30007",
     "productName": "ACQ. NATURALE",
-    "assortmentType": "IZ"
+    "assortmentType": "IZ",
+    "count": "13"
   },
   {
     "productId": "2313423",
     "categoryId": "25004",
     "productName": "BISC.GOCCIOLE",
-    "assortmentType": "IS"
+    "assortmentType": "IS",
+    "count": "10"
   },
   {
     "productId": "6123776",
     "categoryId": "49701",
     "productName": "CABAS BAG",
-    "assortmentType": "PZ"
+    "assortmentType": "PZ",
+    "count": "10"
   },
   {
     "productId": "1321368",
     "categoryId": "1001",
     "productName": "GRANMIX CLASSICO",
-    "assortmentType": "Z"
+    "assortmentType": "Z",
+    "count": "6"
   },
   {
     "productId": "5162110",
     "categoryId": "30007",
     "productName": "SHOPPER BIO",
-    "assortmentType": "IS"
+    "assortmentType": "IS",
+    "count": "3"
   },
   {
     "productId": "5629590",
     "categoryId": "82150",
     "productName": "CRACKERS FRUM-",
-    "assortmentType": "AZ"
+    "assortmentType": "AZ",
+    "count": "2"
   },
   {
     "productId": "2945679",
     "categoryId": "49001",
     "productName": "MINESTRONE FINDUS",
-    "assortmentType": "EZ"
+    "assortmentType": "EZ",
+    "count": "1"
   },
   {
     "productId": "9347001",
     "categoryId": "82152",
     "productName": "YO.CEREALI ",
-    "assortmentType": "XZ"
+    "assortmentType": "XZ",
+    "count": "1"
   },
   {
     "productId": "63061",
     "categoryId": "82150  ",
     "productName": "PANE FERRARESE",
-    "assortmentType": "GZ"
+    "assortmentType": "GZ",
+    "count": "1"
   },
   {
     "productId": "9137411",
     "categoryId": "1001",
     "productName": "FOGLIAGR.LASAGNA ",
-    "assortmentType": "EB"
+    "assortmentType": "EB",
+    "count": "1"
   },
   {
     "productId": "7873298",
     "categoryId": "30006",
     "productName": "CABERN FRANCDOC BACICH",
-    "assortmentType": "ES"
+    "assortmentType": "ES",
+    "count": "1"
   },
   {
     "productId": "6854090",
     "categoryId": "49001",
     "productName": "BAVARIA",
-    "assortmentType": "GT"
+    "assortmentType": "GT",
+    "count": "1"
   },
   {
     "productId": "7001417",
     "categoryId": "27701",
     "productName": "SHOPPER BIO",
-    "assortmentType": "IU"
+    "assortmentType": "IU",
+    "count": "28"
   },
   {
     "productId": "6817682",
     "categoryId": "27701",
     "productName": "P&P",
-    "assortmentType": "AZ"
+    "assortmentType": "AZ",
+    "count": "18"
   }
 ]
 

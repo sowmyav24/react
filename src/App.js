@@ -1,33 +1,29 @@
 import React, {Component} from 'react';
-import ReactTable from 'react-table'
 import 'react-table/react-table.css'
 import './App.css';
-import myData from './myData';
+import PromotionApp from './PromotionApp';
+import AssortmentApp from './AssortmentApp';
+import {BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom';
 
 class App extends Component {
     render() {
-        const data = myData;
-        const columns = [{
-            Header: 'Product Id',
-            accessor: 'productId'
-        }, {
-            Header: 'Category Id',
-            accessor: 'categoryId',
-        }, {
-            Header: 'Product Name',
-            accessor: 'productName',
-        }, {
-            Header: 'Assortment Type',
-            accessor: 'assortmentType',
-        }];
-
         return (
-            <ReactTable
-                data={data}
-                columns={columns}
-                showPaginationBottom={false}
-                filterable={true}
-            />);
+            <div>
+                <Router>
+                    <div>
+                        <ul>
+                            <li><Link to={'/promotion'}>Promotion</Link></li>
+                            <li><Link to={'/assortment'}>Assortment</Link></li>
+                        </ul>
+
+                        <Switch>
+                            <Route exact path='/promotion' component={PromotionApp}/>
+                            <Route exact path='/assortment' component={AssortmentApp}/>
+                        </Switch>
+                    </div>
+                </Router>
+            </div>
+        )
     }
 }
 

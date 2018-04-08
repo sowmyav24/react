@@ -6,12 +6,7 @@ import myData from './myData';
 
 class App extends Component {
     render() {
-        let entries = [];
-        // Object.entries(myData).map(([key, value]) => {
-        //     entries.push({name: key, count: value})
-        // });
         const data = myData;
-
         const columns = [{
             Header: 'Product Id',
             accessor: 'productId'
